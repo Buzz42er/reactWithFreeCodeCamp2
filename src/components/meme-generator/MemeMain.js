@@ -1,5 +1,6 @@
 import React from 'react'
 import memesData from "./memesData.js"
+import './Meme.css'
 // import Meme from './imagesMeme/Meme.js'
 
 const MemeMain = () => {
