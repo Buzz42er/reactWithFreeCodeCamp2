@@ -1,0 +1,10 @@
+.box {
+    
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+/* don't need it any more */

@@ -5,6 +5,7 @@ import TurneryOperator from './TurneryOperator';
 import Adding from './Adding';
 import ContactFavorite from './ContactFavorite';
 import MovingStateUp from './PassingData/MovingStateUp';
+import BoxesApp from '../boxes/BoxesApp';
 
 
 const SmallProjects = () => {
@@ -15,6 +16,7 @@ const SmallProjects = () => {
       <Adding/>
       <ContactFavorite/>
       <MovingStateUp/>
+      <BoxesApp/>
     </div>
   )
 }
