@@ -48,10 +48,11 @@ console.log(paragraphs)
 
 function Colors() {
     const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+    
     return (
-        <div key={colors.id}>
+        <div>
             {colors.map((color) => {
-                return <h3>{color}</h3>   
+                return <h3 key={color}>{color}</h3>   
             })}
         </div>
     )

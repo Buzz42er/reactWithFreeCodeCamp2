@@ -3,6 +3,9 @@ import Counter from './counter2'
 import '../../App.css';
 import TurneryOperator from './TurneryOperator';
 import Adding from './Adding';
+import ContactFavorite from './ContactFavorite';
+import MovingStateUp from './PassingData/MovingStateUp';
+
 
 const SmallProjects = () => {
   return (
@@ -10,6 +13,8 @@ const SmallProjects = () => {
       <Counter />
       <TurneryOperator/>
       <Adding/>
+      <ContactFavorite/>
+      <MovingStateUp/>
     </div>
   )
 }
