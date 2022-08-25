@@ -14,6 +14,7 @@ import StateHello from "./components/state.js";
 import SmallProjects from "./components/small-projects/SmallProjects";
 import MemeApp from "./components/meme-generator/MemeApp";
 
+
 //need to capitalise first letter of the name of the function
 function Greeting() {
   //this is JSX

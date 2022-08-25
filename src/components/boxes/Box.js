@@ -40,22 +40,35 @@ const Box = (props) => {
         //      <div style={styles} className="box" onClick={handleClick}></div>
         //  )
 
-
-         const [on, setOn] = React.useState(props.on)
+/////////////////////////////////sixth phase
+        //  const [on, setOn] = React.useState(props.on)
     
-         const handleClick = () => {
-             setOn(prevOn => !prevOn)
-         }
+        //  const handleClick = () => {
+        //      setOn(prevOn => !prevOn)
+        //  }
          
-         const styles = {
-             backgroundColor: on ? "#222255" : "transparent",
-             borderRadius: '5px'
+        //  const styles = {
+        //      backgroundColor: on ? "#222255" : "transparent",
+        //      borderRadius: '5px'
              
-         }
+        //  }
          
 
 
-         return (
+        //  return (
+        //     <div 
+        //         style={styles} 
+        //         className="box"
+        //         onClick={()=>props.toggle(props.id)}
+        //     >
+        //     </div>
+        // )
+/////////////////////////////////////////seventh phase
+        const styles = {
+            backgroundColor: props.on ? "#222255" : "transparent"
+        }
+        
+        return (
             <div 
                 style={styles} 
                 className="box"
