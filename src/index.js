@@ -13,7 +13,7 @@ import './components/state.js'
 import StateHello from "./components/state.js";
 import SmallProjects from "./components/small-projects/SmallProjects";
 import MemeApp from "./components/meme-generator/MemeApp";
-
+import AllForms from "./components/forms/AllForms";
 
 //need to capitalise first letter of the name of the function
 function Greeting() {
@@ -91,6 +91,7 @@ root.render(
     <StateHello />
     <h2>Repeats</h2>
     <SmallProjects/>
+    <AllForms/>
   </div>
   // simple // var render
 );

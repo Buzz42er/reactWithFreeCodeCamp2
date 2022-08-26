@@ -6,6 +6,8 @@ import Adding from './Adding';
 import ContactFavorite from './ContactFavorite';
 import MovingStateUp from './PassingData/MovingStateUp';
 import BoxesApp from '../boxes/BoxesApp';
+import JokesApp from './jokes2/JokesApp';
+import UnreadMessages from './UnreadMessages';
 
 
 const SmallProjects = () => {
@@ -17,6 +19,8 @@ const SmallProjects = () => {
       <ContactFavorite/>
       <MovingStateUp/>
       <BoxesApp/>
+      <JokesApp/>
+      <UnreadMessages/>
     </div>
   )
 }

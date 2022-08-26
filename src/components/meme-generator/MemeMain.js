@@ -1,6 +1,5 @@
 import React from 'react'
 import memesData from "./memesData.js"
-import './Meme.css'
 import { useState } from 'react'
 // import Meme from './imagesMeme/Meme.js'
 
@@ -97,6 +96,8 @@ const MemeMain = () => {
   return (
       <main>
           <div className="MemeMain">
+          <div className='formMeme'>
+          <div className="textInput">
               <input 
                   type="text"
                   id='upperText'
@@ -108,12 +109,15 @@ const MemeMain = () => {
                   placeholder="Bottom text"
                   id='lowerText'
               />
+              </div>
+              
               <button 
                   id='submitButton'
                   onClick={getMemeImage}
               >
                   Get a new meme image 🖼
               </button>
+              </div>
           </div>
           <img src={meme.randomImage} className="meme" alt=''/>
       </main>
