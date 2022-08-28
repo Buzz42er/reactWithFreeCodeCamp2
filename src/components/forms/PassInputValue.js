@@ -38,13 +38,17 @@ const PassInputValue = () => {
   const [inputData, setInputData] = useState({
     firstName: "",
     lastName: "",
+    email: "",
+    comment: "",
+    likeWhatYouSee: false,
   });
 
   function handleChange(event) {
     setInputData((prevData) => {
+      const { name, value, checked, type } = event.target;
       return {
         ...prevData,
-        [event.target.name]: event.target.value,
+        [name]: type === "checkbox" ? checked : value,
       };
     });
   }
@@ -59,7 +63,8 @@ const PassInputValue = () => {
           type="text"
           placeholder="First Name"
           onChange={handleChange}
-          name="firstName"
+          name="firstName" //to connect to function handleChange
+          value={inputData.firstName} //to have only one state
         />
         <input
           className="inputForm"
@@ -67,7 +72,35 @@ const PassInputValue = () => {
           placeholder="Last Name"
           onChange={handleChange}
           name="lastName"
+          value={inputData.lastName}
         />
+        <input
+          className="inputForm"
+          type="text"
+          placeholder="Email"
+          onChange={handleChange}
+          name="email"
+          value={inputData.email}
+        />
+        {/* adding textarea */}
+        <textarea
+          name="comment"
+          className="inputForm"
+          cols="30"
+          rows="1"
+          placeholder="Comment"
+          onChange={handleChange}
+          value={inputData.comment}
+        />
+        <input
+          className="inputForm"
+          type="checkbox"
+          name="likeWhatYouSee"
+          id="like"
+          onChange={handleChange}
+          value={inputData.likeWhatYouSee}
+        />
+        <label htmlFor="like">Like what you see?</label>
       </form>
     </div>
   );
