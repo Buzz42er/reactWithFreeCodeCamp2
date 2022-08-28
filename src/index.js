@@ -2,18 +2,18 @@ import React from "react"; //ES6 moduals, imported React
 import { createRoot } from "react-dom/client"; //react 18 syntax before it was reactDOM
 import App from "./App";
 import "./index.css";
-import './App.css';
+import "./App.css";
 import Hours from "./components/Hours";
-import CatContacts from "./components/catContactCard/CatContacts";
-import Jokes from "./components/joker/Jokes";
-import Colors from "./components/maps";
-import PhotoShuffle from "./components/photoshuffle/PhotoShuffle";
-import AddItem from "./components/addItem/AddItem";
-import './components/state.js'
-import StateHello from "./components/state.js";
-import SmallProjects from "./components/small-projects/SmallProjects";
-import MemeApp from "./components/meme-generator/MemeApp";
-import AllForms from "./components/forms/AllForms";
+import CatContacts from "./components/1catContactCard/CatContacts";
+import Jokes from "./components/2joker/Jokes";
+import Colors from "./components/3maps/maps";
+import MemeApp from "./components/4meme-generator/MemeApp";
+import PhotoShuffle from "./components/5photoshuffle/PhotoShuffle";
+import AddItem from "./components/6addItem/AddItem";
+import StateHello from "./components/7state/state.js";
+import SmallProjects from "./components/8small-projects/SmallProjects";
+import AllForms from "./components/9forms/AllForms";
+import APIprojects from "./components/10API/APIprojects";
 
 //need to capitalise first letter of the name of the function
 function Greeting() {
@@ -82,16 +82,21 @@ root.render(
     <Simple />
     <List />
     <App />
-    <div className="cats"><CatContacts/></div>
-    <div className="joke"><Jokes/></div>
-    <Colors/>
-    <MemeApp/>
+    <div className="cats">
+      <CatContacts />
+    </div>
+    <div className="joke">
+      <Jokes />
+    </div>
+    <Colors />
+    <MemeApp />
     <PhotoShuffle />
     <AddItem />
     <StateHello />
     <h2>Repeats</h2>
-    <SmallProjects/>
-    <AllForms/>
+    <SmallProjects />
+    <AllForms />
+    <APIprojects />
   </div>
   // simple // var render
 );
