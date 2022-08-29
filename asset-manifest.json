@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactWithFreeCodeCamp2/static/css/main.3cb8a2ee.css",
+    "main.css": "/reactWithFreeCodeCamp2/static/css/main.9ba391d1.css",
     "main.js": "/reactWithFreeCodeCamp2/static/js/main.5d004fd1.js",
     "static/media/pexels-amber-janssens-7327624.jpg": "/reactWithFreeCodeCamp2/static/media/pexels-amber-janssens-7327624.daef23cb4c22648e0bb4.jpg",
     "static/media/pumpkin.png": "/reactWithFreeCodeCamp2/static/media/pumpkin.3147a978e9546ee0303d.png",
@@ -11,11 +11,11 @@
     "static/media/mr-whiskerson.jpg": "/reactWithFreeCodeCamp2/static/media/mr-whiskerson.36febfb7b0742c4dbe15.jpg",
     "static/media/felix.jpg": "/reactWithFreeCodeCamp2/static/media/felix.a0ad6433cd3874af1c9f.jpg",
     "index.html": "/reactWithFreeCodeCamp2/index.html",
-    "main.3cb8a2ee.css.map": "/reactWithFreeCodeCamp2/static/css/main.3cb8a2ee.css.map",
+    "main.9ba391d1.css.map": "/reactWithFreeCodeCamp2/static/css/main.9ba391d1.css.map",
     "main.5d004fd1.js.map": "/reactWithFreeCodeCamp2/static/js/main.5d004fd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb8a2ee.css",
+    "static/css/main.9ba391d1.css",
     "static/js/main.5d004fd1.js"
   ]
 }
