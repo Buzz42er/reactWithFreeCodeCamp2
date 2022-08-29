@@ -1,7 +1,7 @@
 {
-  "name": "react-with-free-code-camp",
+  "name": "react-with-free-code-camp-2",
   "version": "0.1.0",
-  "homepage": "https://buzz42er.github.io/reactWithFreeCodeCamp",
+  "homepage": "https://buzz42er.github.io/reactWithFreeCodeCamp2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
