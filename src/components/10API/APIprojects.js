@@ -2,6 +2,7 @@ import UseEffect from "./UseEffect";
 import "./API.css";
 import EffectOnClick from "./EffectOnClick";
 import NewCaracter from "./NewCaracter";
+import WindowTrackerApp from "./WindowTracker/WindowTrackerApp";
 
 const APIprojects = () => {
   return (
@@ -9,6 +10,7 @@ const APIprojects = () => {
       <UseEffect />
       <EffectOnClick />
       <NewCaracter />
+      <WindowTrackerApp />
     </div>
   );
 };
